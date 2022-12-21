@@ -9,3 +9,123 @@
     println("vice almirante garp- vc tem razão minha filha as vezes  sou uma pessoa ... muito protetora com as pessoas a minha volta")
 }
 
+     //println() -- exibir coisas no console
+      /*
+    println("Capitão Picolô - Olá tudo bom?")
+    println("Todynhu - Salve, na boa coroa")
+    println("Capitão Picolô - Sim")
+    println("Todynhu - ...")
+    println("Clima tenso")
+    println("♫ msc de faroeste ♫")
+    */
+    // Variáveis - guardam valores
+    // 
+    // var - mutável - seu valor pode ser alterado
+    // val - não mútavel - seu valor não pode ser alterado
+    // 
+    // TIPOS DE VARIÁVEIS(principais ☻)
+    // 
+    // string --> tipo de variável que armazena textos no geral(caracteres) 
+    // dentro de aspas
+    // Boolean --> verdadeiro ou falso, sim ou não, 1 ou 0
+    // Int --> números inteiros
+    // Float --> números reais (com um número baixo de casas decimais)
+    // Double --> números reais tmb (número alto de casas decimais)
+    // Long --> números reais (número altissimo de casas decimais(número completo))
+    // 
+    /*
+    var nome = "Messi"
+    var idade = 35
+    var theBest = 7
+    
+    //println(messi)
+    
+    println("O nome dele é " + nome + ", a idade dele é " + idade +
+            ", e ele já foi " + theBest + " vezes o the Best")
+    println("O nome dele é $nome , a idade dele é $idade , e ele já foi $theBest vezes o the Best")
+    
+    //Exercício
+    
+    //Faça uma apresentação de si mesmo dizendo nome, idade, país e cidade através de variáveis
+    
+    var nome = "Henrique"
+    var idade = 16 
+    var pais = "Brasil"
+    var cidade = "Bahia"
+    
+    println("ola eu sou $nome , tenho $idade anos , vim do $pais , e nasci na $cidade") 
+     
+    var num1 = 70 
+    var num2 = 13 
+    var resultado = num1 - num2
+    
+    println(resultado)
+    */
+     // - > subtração
+     // + > adição
+     // * > multiplicação
+     // / > divisão
+     // % > módulo 
+     // println(6%2)
+     // 
+     // = > para dar valor a algo 
+     // 
+     // operadores relacionais 
+     // == -> igual a algo 
+     // != -> diferente a algo 
+     // > -> maior que 
+     // < -> menor que  
+     // >= -> maior ou igual a 
+     // <= -> menor ou igual a 
+     // 
+     // ++ -> adicionar 1
+     // -- -> subtrai 1 
+     //
+     /* 
+     var num = 0
+     num++ 
+     println(num)
+     
+     
+     if e else 
+     estrutura:
+     if(condição){
+     açães} else{
+     ação}
+      */  
+      /* 
+     var dia = 21  
+
+     if(dia<= 21) {println("hoje tem aula")
+     }else
+        println("hoje não tem aula")
+}
+    
+   // if e else composto 
+   // 
+   // if(condição){
+   ações
+}else if(condição){ação 
+}else{
+ação
+}
+*/ 
+var vidas = 5 
+
+    
+if(vidas <= 0){
+      println("tu ta morto")
+    
+}else if(vidas == 1){
+    println("tu ta morrendo")    
+}else if(vidas == 2){
+    println(" ce não ta muito bem, se cuida ae")
+}else if(vidas == 3){
+    println("tu ta de boa mais come menos miojo")
+}else if(vida == 4){
+    println("vc ta tranquilo pode curti a vida ")
+    
+}else{
+    println("morre ai mano ta sem graça ver vc vivo")
+}
+ 
