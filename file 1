@@ -1,15 +1,23 @@
-
+fun main() {
+//println("Hello World")*/// comentário
+    /*todo mundo
+     * assisnou a
+     * lista?
      */
-    //println()--exibir coisas no console
-    println("capitão luffy- eu vou ser o rei dos piratas ")
-    println("vice almirante garp- so por cima do meu cadaver")
-    println("capitão luffy- vc não ira me empedir esse e o meu sonho ")
-    println("vice almirante garp- e muito arriscado não permitirei que vc se machuque com esse sonho imposivel")
-    println("mãe do luffy- pai vc não pode protejelho para sempre a vida e feita de obistaculos e temos que enfrentalos sozinho")
-    println("vice almirante garp- vc tem razão minha filha as vezes  sou uma pessoa ... muito protetora com as pessoas a minha volta")
-}
-
-     //println() -- exibir coisas no console
+    /*
+     println("Qualquer coisa")
+     println("Ctrl + a")
+     println("crie um google docs")
+     println("Ctrl + c lá dentro")
+     */
+     //comentário
+     /*
+      * co
+      * men
+      * tá
+      * rio
+      */
+      //println() -- exibir coisas no console
       /*
     println("Capitão Picolô - Olá tudo bom?")
     println("Todynhu - Salve, na boa coroa")
@@ -43,89 +51,244 @@
     println("O nome dele é " + nome + ", a idade dele é " + idade +
             ", e ele já foi " + theBest + " vezes o the Best")
     println("O nome dele é $nome , a idade dele é $idade , e ele já foi $theBest vezes o the Best")
-    
+    */
     //Exercício
     
     //Faça uma apresentação de si mesmo dizendo nome, idade, país e cidade através de variáveis
     
-    var nome = "Henrique"
-    var idade = 16 
-    var pais = "Brasil"
-    var cidade = "Bahia"
+    //Faça uma apresentação de si mesmo dizendo nome, idade, país e cidade através de variáveis
+//
+/*
+var nome = "Eduardo"
+var idade = 19
+var pais = "Brasil"
+var cidade = "São Paulo"
     
-    println("ola eu sou $nome , tenho $idade anos , vim do $pais , e nasci na $cidade") 
-     
+    println("Olá eu sou $nome , tenho $idade anos, meu país é o $pais e minha cidade é $cidade")
+
     var num1 = 70 
     var num2 = 13 
     var resultado = num1 - num2
     
     println(resultado)
     */
-     // - > subtração
-     // + > adição
-     // * > multiplicação
-     // / > divisão
-     // % > módulo 
-     // println(6%2)
-     // 
-     // = > para dar valor a algo 
-     // 
-     // operadores relacionais 
-     // == -> igual a algo 
-     // != -> diferente a algo 
-     // > -> maior que 
-     // < -> menor que  
-     // >= -> maior ou igual a 
-     // <= -> menor ou igual a 
-     // 
-     // ++ -> adicionar 1
-     // -- -> subtrai 1 
-     //
-     /* 
-     var num = 0
-     num++ 
-     println(num)
+    //Operadores Lógicos
+    // - -> subtração
+    // + -> adição
+    // * -> multiplicação
+    // / -> divisão
+    // % -> módulo
+    //println(6%2)
+    //
+    // = -> para dar valor a algo
+    //
+    //Operadores Relacionais
+    // == -> igual a algo
+    // != -> diferente a algo
+    // > -> maior que 
+    // < -> menor que
+    // >= -> maior ou igual a
+    // <= -> menor ou igual a
+    // 
+    // ++ -> adiciona 1
+    // -- -> subtrai 1
+    // 
+    /*
+    var num = 0
+    num++
+    println(num)
+    
+    
+    if e else simples
+    Estrutura:
+    
+    if(condição){
+    ações
+    }else{
+    ação
+    }
+    */ 
+    /*
+    var dia = 26
+    
+    if(dia <= 21){
+        println("Hoje tem aula")
+    }else{
+        println("Hoje não tem aula")
+    }
+    
+    // if e else composto
+    // 
+    // if(condição){
+    ações
+    }else if(condição){
+    ação
+    }else if(condição){
+    ação
+    }else{
+    ação
+    }
+    */
+    /*var vidas = 10
+    
+    if(vidas <= 0){
+        println("tu ta morto")
+    }else if(vidas == 1){
+        println("tu ta morrendo!!")
+    }else if(vidas == 2){
+        println("ce não ta muito bem, se cuida ae")
+    }else if(vidas == 3){
+        println("tu ta ok, só come menos miojo")
+    }else if(vidas == 4){
+        println("ce ta de boa, vai curtir")
+    }else{
+        println("Tu ta ÓTIMO!!! Parabéns!")
+    }
+    
+}*/
+   // 1 - faça um programa usando duas variaveis que representem cada uma, um número.
+    //ele(programa) deve verificar qual dos dois é o maior número e imprimi-lo no console
+    //
+    /*
+    var numero1 = 10
+    var numero2 = 10 
+    
+    if(numero1 > numero2){ //verificando se o n1 é maior que o n2
+        println(numero1)
+    }else{
+        println(numero2) //verificando se o n1 não é maior que o n2
+    }
+    */
+    //faça um programa que verifique se o valor de uma variável é 
+    //maior, igual, ou menor que 0
+    /*
+    var numero = 0
+    
+    if(numero > 0){
+        println("o número é maior que zero")
+    }else if(numero < 0){
+        println("o número é menor que zero")
+    }else{
+    	println("o número é igual a zero")
+    }
+    */
+    
+    
+    //----------------------------------//
+    //Operadores Lógicos
+    // && -> e
+    // || -> ou
+    /*
+     var coracoes = 0
+    var vidas = 2
      
+    if(coracoes <= 2 || vidas <= 3){
+        println("game over")
+    }else{
+        println("jogo vai ser reiniciado")
+    */
+    //
+    //V - verdadeiro
+    //F - falso
+    //
+    // &&
+    //VV  - Executa
+    //VF  - Não executará 
+    //FV  - não executará 
+    //FF  - não
+    //
+    // ||
+    //VV  - Executa
+    //VF  - Executa
+    //FV  - Executa
+    //FF  - não executará
+    
+    // When - quando
+    //
+    /*var mes = 3
+    
+    when(mes){
+        1 -> {println("Janeiro")}
+        2 -> {println("Fevereiro")}
+        3 -> {println("março")}
+        4 -> {println("abril")}
+        5 -> {println("maio")}
+        6 -> {println("junho")}
+        7 -> {println("julho")}
+        8 -> {println("agosto")}
+        9 -> {println("setembro")}
+        10 -> {println("outubro")}
+        11 -> {println("novembro")}
+        else -> {println("dezembro")}
+    }*/
+    //laços de repetição
+    //
+    //while -> enquanto
+    //
+    //do..while -> faça..enquanto 
+    //
+    //for -> para 
+    //
+    //repeat -> repita 
+    //
+    // -------------------
+    //
+    //repeat - repita 
+    //
+    //estrutura do repeat
+    // repeat(vezes que  vai ser repetir){
+    // ações
+    // }
+    /*
+    repeat(10){
+        println("por ordem dos peaky blinders")
+  
+    }
+    */
+    //laço while - enquanto 
+    //
+    //estrutura while
+    //
+    //while(condução){
+    //ação
+    //}
+    /*
+    var dia = 360 
+    
+    while(dia <= 365){
+        println("2022")
+        dia++
+    }
+    */
+    
+    //laço do.. while -> faça enquanto
+    //
+    //executa a ação enquanto for verdadeira 
+    //
+    //estrutura do do..while
+    //
+    //do{
+    //ação
+    //}while(condição)
+    /*
+var dia = 360
+do{
+   println(dia)
+   dia++
+}while(dia <= 365)
+
+    var dia = 0 
+    
+    while(dia <= 100){
+        println(dia)
+        dia++
+        */
+    var um = 0 
+    var N = 480 
+    do{
+        println(N)
+        Numero++
+    }while(numero <= 480)
+    }
+    
      
-     if e else 
-     estrutura:
-     if(condição){
-     açães} else{
-     ação}
-      */  
-      /* 
-     var dia = 21  
-
-     if(dia<= 21) {println("hoje tem aula")
-     }else
-        println("hoje não tem aula")
-}
-    
-   // if e else composto 
-   // 
-   // if(condição){
-   ações
-}else if(condição){ação 
-}else{
-ação
-}
-*/ 
-var vidas = 5 
-
-    
-if(vidas <= 0){
-      println("tu ta morto")
-    
-}else if(vidas == 1){
-    println("tu ta morrendo")    
-}else if(vidas == 2){
-    println(" ce não ta muito bem, se cuida ae")
-}else if(vidas == 3){
-    println("tu ta de boa mais come menos miojo")
-}else if(vida == 4){
-    println("vc ta tranquilo pode curti a vida ")
-    
-}else{
-    println("morre ai mano ta sem graça ver vc vivo")
-}
- 
